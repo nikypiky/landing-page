@@ -15,6 +15,7 @@
     color: #F9FAF8;
     font-size: 24px;
 }
+
 a {
     text-decoration: none;
     color: grey;
@@ -30,3 +31,25 @@ a {
     color: #E5E7EB;
     gap: 20px;
 }
+
+.hero-header {
+    size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.hero-text {
+    size: 17px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882f6;
+    color: white
+}
+
+
+
+
+
+
