@@ -1,13 +1,17 @@
+body {
+    width: 1000px;
+}
+
 .top {
     background-color: #1f2937;
-    padding: 0 100px 0 100px;
+    padding: 0 150px 0 150px;
 }
 
 .header {
     display: flex;
     color: white;
     justify-content: space-between;
-    padding: 10px;
+    padding: 10px 0 10px 0;
     align-items: baseline;
 }
 
@@ -34,13 +38,27 @@ a {
 
 .hero {
     display: flex;
+    justify-content: space-between
+    ;
 }
 
+.hero-body, .hero-image {
+    width: 300px;
+    height: 150px;
+    margin: 70px 0 70px 0;
+}
+
+.hero-body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
 .hero-header {
     size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+    margin: 0;
 }
 
 .hero-text {
@@ -58,7 +76,9 @@ a {
 
 button {
     background-color: #3882f6;
-    color: white
+    color: white;
+    width: 90px;
+    padding: 3px;
 }
 
 
