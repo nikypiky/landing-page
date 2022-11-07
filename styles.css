@@ -72,8 +72,40 @@ a {
     color: #E5E7EB;
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
 
+.info-header {
+    font-size: 36px;
+    font-weight: 800;
+    margin: 40px;
+}
 
+.icons {
+    display: flex;
+    gap: 40px;
+}
+
+.icon {
+    width: 150px;
+
+}
+
+.icon-image {
+    height: 150px;
+    width: 150px;
+    border: 3px solid rgb(149, 149, 255);
+    border-radius:9px
+}
+
+.icon-text {
+    text-align: center;
+    color: gray;
+}
 
 
 
