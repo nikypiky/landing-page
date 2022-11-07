@@ -1,11 +1,14 @@
 .top {
     background-color: #1f2937;
+    padding: 0 100px 0 100px;
 }
 
 .header {
     display: flex;
     color: white;
-    justify-content: space-between  ;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: baseline;
 }
 
 .logo {
@@ -15,13 +18,15 @@
 a {
     text-decoration: none;
     color: grey;
+    margin: 50;
 }
 
-ul {
+.header-links {
     display: flex;
     list-style-type: none;
     padding: 0;
     margin: 0;
     font-size: 18px;
     color: #E5E7EB;
+    gap: 20px;
 }
