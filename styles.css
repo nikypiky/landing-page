@@ -32,6 +32,11 @@ a {
     gap: 20px;
 }
 
+.hero {
+    display: flex;
+}
+
+
 .hero-header {
     size: 48px;
     font-weight: 800;
@@ -42,6 +47,14 @@ a {
     size: 17px;
     color: #E5E7EB;
 }
+
+
+
+
+
+
+
+
 
 button {
     background-color: #3882f6;
