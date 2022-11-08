@@ -110,8 +110,7 @@ a {
 .text {
     background-color: #E5E7EB;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
     padding: 100px;
 }
 
@@ -133,16 +132,44 @@ a {
 }
 
 .sign-up {
-    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
 }
+
+.blue-square {
+    background-color: #3882f6;
+    width: 700px;
+    border-radius: 7px;
+    display: flex;
+    padding: 25px 50px 25px 50px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.square-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.square-header, .square-body {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+
 
 
 button {
     background-color: #3882f6;
     color: white;
     width: 90px;
+    height: 25px;
     padding: 3px;
-    border-radius:6px
+    border-radius:6px;
+    flex-shrink: 0;
 }
 
 
